@@ -9,7 +9,7 @@ import BlurEffect from './Components/BlurEffect';
 function App() {
     
   return (
-    <div className='h-full flex justify-center bg[#EBECEE]'>
+    <div className='h-screen flex flex-col items-center '>
       <Navbar/>
       <BlurEffect/>
     </div>
