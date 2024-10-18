@@ -5,6 +5,7 @@ const ProjectSchema = new mongoose.Schema({
     description: String,
     techStack: [String],
     link: String,
+    
 });
 
 const ArticleSchema = new mongoose.Schema({
