@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlurEffect = () => {
     return (
-        <div className="relative h-full overflow-hidden">
+        <>
             {/* Top blur */}
             <div className="fixed top-0 left-0 right-0 h-32 z-20">
                 <div className={`absolute inset-0 z-10 pointer-events-none backdrop1`} />
@@ -39,7 +39,7 @@ const BlurEffect = () => {
             {/* <div className="fixed mix-blend-multiply bg-white filter backdrop-blur-sm bottom-0 left-0 right-0 h-16 z-20" />
          */}
         
-        </div>
+        </>
     );
 };
 
