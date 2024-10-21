@@ -3,10 +3,10 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav className="fixed z-40 c-font bg-white justify-center items-center rounded-full px-6 py-2 mx-auto mt-4 max-w-4xl">
-            <ul className="flex py-1.5 px-3 justify-center text-lg items-center font-semibold space-x-6">
+            <ul className="flex py-[4px] px-3 justify-center text-lg items-center font-semibold space-x-4">
                 {/* Logo */}
                 <li>
-                    <a href="#home" className="text-[#363B44] font-bold text-2xl">
+                    <a href="#home" className="text-[#363B44] font-bold text-[25px]">
                         Gyo.
                     </a>
                 </li>

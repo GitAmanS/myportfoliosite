@@ -5,7 +5,7 @@ const BlurEffect = () => {
     return (
         <>
             {/* Top blur */}
-            <div className="fixed top-0 left-0 right-0 h-32 z-20">
+            <div className="fixed top-0 left-0 right-0 h-40 z-20">
                 <div className={`absolute inset-0 z-10 pointer-events-none backdrop1`} />
                 <div className={`absolute inset-0 z-20 pointer-events-none backdrop2`} />
                 <div className={`absolute inset-0 z-30 pointer-events-none backdrop3`} />

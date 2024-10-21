@@ -9,14 +9,13 @@ import Projects from './Components/Projects';
 
 function App() {
   return (
-    <div className='bg-[#EBECEE]'>
+    <div className='bg-[#EBECEE] c-font'>
       <SpringCursor />
       <div className="min-h-screen  flex flex-col items-center">
         <Navbar />
-        <div className="w-full min-h-screen ">
+        <div className="w-full min-h-screen pb-96">
           <Home />
           <div className=" w-full custom-dashed-line"></div>
-          <div className='h-2'></div>
           <Projects/>
         </div>
         <BlurEffect />
